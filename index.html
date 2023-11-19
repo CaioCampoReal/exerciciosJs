@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            word-wrap: break-word;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        #e1, #e3, #e4, #e5, #e6, #e7, #e8 {
+            padding-top: 30px;
+        }
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+          -webkit-appearance: none;
+          margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <script src="script.js"></script>
+
+    <div class="container">
+        <div style="width: 60%;">
+            <div id="e1">
+                <h4>
+                    1/2) Escreva um programa em JavaScript que exiba na tela o maior número
+                    entre dois números fornecidos pelo usuário.
+                </h4>
+        
+                <input type="number" inputmode="none" id="n1" placeholder="numero 1"> ou 
+                <input type="number" id="n2" placeholder="numero 2"> = <label id="r1"></label>
+            </div>
+    
+            <div id="e3" style="word-wrap: break-word;">
+                <h4>
+                    3) Escreva um programa em JavaScript que exiba na tela uma mensagem
+                    de acordo com a nota do usuário. Se a nota for menor do que 6, exiba
+                    "Reprovado". Se a nota for maior ou igual a 6 e menor do que 8, exiba
+                    "Aprovado". Se a nota for maior ou igual a 8, exiba "Aprovado com louvor".
+                </h4>
+    
+                <input type="number" id="n1" placeholder="nota 1"> = <label id="r1"></label>    
+            </div>
+
+            <div id="e4" style="word-wrap: break-word;">
+                <h4>
+                    4) Escreva um programa em JavaScript que exiba na tela a média dos
+                    números de um vetor.
+                </h4>    
+                <input id="n1" placeholder="Cada numero do vetor deve ser separado com ESPAÇO" style="width: 30%;">
+                <label id="r1"></label>    
+            </div>
+
+            <div id="e5" style="word-wrap: break-word;">
+                <h4>
+                    5) Escreva um programa em JavaScript que exiba na tela uma mensagem
+                    de acordo com o valor de uma variável. Se a variável for igual a "a", exiba
+                    "A". Se a variável for igual a "b", exiba "B". Se a variável não for nem "a"
+                    nem "b", exiba "Outra letra".
+                </h4>    
+                <input id="n1" placeholder="digite a ou b";>
+                <label id="r1"></label>    
+            </div>
+
+
+            <div id="e6" style="word-wrap: break-word;">
+                <h4>
+                    6) Escreva um programa em JavaScript que exiba na tela a soma dos
+                    elementos de uma matriz.
+                </h4>    
+                <textarea id="m" placeholder="Insira valores da Matriz com um espaço entre os elementos e enter para adicionar uma linha a matriz" style="width: 70%; height: 80px;"></textarea>
+                <label id="r1"></label>    
+            </div>
+
+            <div id="e7" style="word-wrap: break-word;">
+                <h4>
+                    7) Escreva um programa em JavaScript que exiba na tela o fatorial de um
+                    número fornecid peloo usuário.
+                </h4>
+                <input id="n1" type="number" placeholder="Insira valor para ser feito o fatorial" style="width:  400px;">
+                <label id="r1"></label>
+            </div>
+
+            <div id="e8" style="word-wrap: break-word;">
+                <h4>
+                    8) Escreva um programa em JavaScript que exiba na tela uma mensagem
+                    de acordo com a escolha do usuário em um menu de opções. O menu
+                    deve ter as opções "1. Opção 1", "2. Opção 2" e "3. Opção 3". Se o usuário
+                    escolher a opção 1, exiba "Opção 1 escolhida". Se o usuário escolher a
+                    opção 2, exiba "Opção 2 escolhida". Se o usuário escolher a opção 3,
+                    exiba "Opção 3 escolhida". Se o usuário escolher uma opção inválida,
+                    exiba "Opção inválida".
+                </h4>
+                <select id="menu">
+                    <option value="">Selecione</option>
+                    <option value="Opcao 1">Opcao 1</option>
+                    <option value="Opcao 2">Opcao 2</option>
+                    <option value="Opcao 3">Opcao 3</option>
+                    <option value="Inválido">Inválido</option>                    
+                </select>
+                <label id="r1"></label>
+            </div>
+
+            <div id="e9" style="word-wrap: break-word;">
+                <h4>
+                    9) Escreva um programa em JavaScript que exiba na tela o maior número
+                    de um vetor.
+                </h4>
+                <textarea id="v" placeholder="Insira valores do Vetor com um espaço entre os elementos" style="width: 70%; height: 80px;"></textarea>
+                <label id="r1"></label>
+            </div>
+
+            <div id="e10" style="word-wrap: break-word;">
+                <h4>
+                    10)Escreva um programa em JavaScript que exiba na tela a média dos
+                    elementos de uma matriz.
+                </h4>
+                <textarea id="m2" placeholder="Insira valores da Matriz com um espaço entre os elementos e enter para adicionar uma linha a matriz" style="width: 70%; height: 80px;"></textarea>
+                <label id="r1"></label>
+            </div>
+
+            <div class="p-4">
+                <h1>
+                    Cabo
+                </h1>
+            </div>
+
+        </div>
+    </div>
+         
+</body>
+</html>
